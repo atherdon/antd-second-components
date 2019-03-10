@@ -9,3 +9,11 @@ var Markdown = require('react-markdown');
 
  https://ant.design/components/steps/
  
+ 
+ https://pro.ant.design/docs/mock-api
+ 
+ https://umijs.org/guide/mock-data.html#using-the-mock-feature-of-umi
+ http://mockjs.com/
+ 
+ https://pro.ant.design/docs/server
+ 
