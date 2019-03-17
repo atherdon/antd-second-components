@@ -17,9 +17,9 @@
     "test:cover": "jest --coverage",
     "code-fix": "standard --fix",
     "build": "yarn build:clean; rollup -c",
-        "build:clean": "rm -rf ./dist; mkdir ./dist",
-        "dev": "yarn build; yarn watch",
-        "watch": "chokidar 'src/**/*.ts' 'src/**/*.tsx' -c \"yarn build\""
+    "build:clean": "rm -rf ./dist; mkdir ./dist",
+    "dev": "yarn build; yarn watch",
+    "watch": "chokidar 'src/**/*.ts' 'src/**/*.tsx' -c \"yarn build\""
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
