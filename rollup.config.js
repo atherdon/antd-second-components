@@ -1,7 +1,6 @@
 import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
-import json from 'rollup-plugin-json'
-import copy from 'rollup-plugin-copy-assets';
+// import copy from 'rollup-plugin-copy-assets';
 import babel from 'rollup-plugin-babel'
 import pkg from './package.json'
 
@@ -41,18 +40,14 @@ export default {
       // plugins: plugins
     }),
 
-    // Allow Rollup to import data from JSON file
-    // json()
-    // json({
-    //   include: '/src/data/**'
-    // }),
 
-    // juck fix in order to move json files to npm
-    copy({
-      assets: [
-        './src/data'
-      ],
-    }),
+
+    // just fix in order to move json files to npm
+    // copy({
+    //   assets: [
+    //     './src/data'
+    //   ],
+    // }),
   ],
 
   output: [{
