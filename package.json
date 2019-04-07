@@ -39,7 +39,7 @@
     "rollup": "^1.9.0",
     "rollup-plugin-babel": "^4.3.2",
     "rollup-plugin-commonjs": "^9.2.3",
-    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-node-resolve": "^4.2.1",
     "shx": "^0.3.2",
     "standard": "^12.0.1"
   },
