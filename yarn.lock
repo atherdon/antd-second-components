@@ -817,22 +817,23 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@groceristar/groceristar-fetch@^2.0.0":
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.11.tgz#f0b92c6b5c067734b3c576c794900b8deca7e2ff"
-  integrity sha512-VVEkZTaytRPVjCb14pwBgcmEVOjwZwJxOTHrQY3g8yOF+bGg54vXCRkmVjoI3jUbvHuH+QFgziY2zzxwojJc2A==
+"@groceristar/groceristar-fetch@^2.1.12":
+  version "2.1.12"
+  resolved "https://registry.yarnpkg.com/@groceristar/groceristar-fetch/-/groceristar-fetch-2.1.12.tgz#0de465485752ee4f1b0444393186f6b84163b2dc"
+  integrity sha512-7oDBkSH1qFg4CdUhYUH2iwg5OP9CMf58hcpxZQ4X9j3C0F9plR4cUIpaZsTzRmIWrouvhG54ICJnik7KFH3BPQ==
   dependencies:
-    "@groceristar/sd-wrapper" "^3.0.0"
+    "@groceristar/sd-wrapper" "^4.0.0"
     dayjs "^1.8.12"
     fs "0.0.2"
     lodash "^4.17.10"
+    raven-js "^3.27.1"
     underscore "^1.9.1"
     uuid "^3.3.2"
 
-"@groceristar/sd-wrapper@^3.0.0":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-3.0.3.tgz#3339cb18658abef939f97bef71a93bb35f578845"
-  integrity sha512-rZpYLODGXXREouy8EKTLih9hP+5nbXDxhXYGULICq8ATUGRiftuWGiFuVldfC+8gexxvsyFHF6/Djyhht7vJhg==
+"@groceristar/sd-wrapper@^4.0.0":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@groceristar/sd-wrapper/-/sd-wrapper-4.0.2.tgz#165a5789d160f59e3d55f83ce6c6a19cd778f97d"
+  integrity sha512-mhjggEzW8lhsnNh3j5D4qZPQ+mTV3MH31W1RXALeRUAcZH2pdAGCCeJvsawJ38Uy0gHRrup4rOJHRAYQRYWBUQ==
   dependencies:
     dayjs "^1.8.13"
     lodash "^4.17.11"
@@ -4987,6 +4988,11 @@ randexp@0.4.6:
   dependencies:
     discontinuous-range "1.0.0"
     ret "~0.1.10"
+
+raven-js@^3.27.1:
+  version "3.27.1"
+  resolved "https://registry.yarnpkg.com/raven-js/-/raven-js-3.27.1.tgz#e187a12982061908ccbf935af0640c9043d7d666"
+  integrity sha512-r/9CwSbaGfBFjo4hGR45DAmrukUKkQ4HdMu80PlVLDY1t8f9b4aaZzTsFegaafu7EGhEYougWDJ9/IcTdYdLXQ==
 
 rc-align@^2.4.0, rc-align@^2.4.1:
   version "2.4.5"
