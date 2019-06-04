@@ -1,6 +1,8 @@
 # antd-second-components
 
 
+[![npm version](http://img.shields.io/npm/v/@groceristar/antd-second-component.svg?style=flat)](https://npmjs.org/package/@groceristar/antd-second-component "View this project on npm")
+
 1111
 
 https://github.com/paulmillr/chokidar
