@@ -48,7 +48,7 @@
     "antd": "^3.19.2",
     "lodash": "^4.17.11",
     "react-router": "^5.0.0",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.0.1",
     "shortid": "^2.2.14",
     "uuid": "^3.3.2"
   },
