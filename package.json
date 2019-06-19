@@ -44,7 +44,7 @@
     "standard": "12.0.1"
   },
   "dependencies": {
-    "@groceristar/groceristar-fetch": "^2.1.12",
+    "@groceristar/groceristar-fetch": "^2.2.0",
     "antd": "^3.19.5",
     "lodash": "^4.17.11",
     "react-router": "^5.0.0",
