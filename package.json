@@ -49,7 +49,7 @@
     "lodash": "^4.17.15",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.0.1",
-    "shortid": "^2.2.14",
+    "shortid": "^2.2.16",
     "uuid": "^3.3.3"
   },
   "peerDependencies": {
